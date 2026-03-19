@@ -77,7 +77,7 @@ export default function App() {
         <div className="hero-c" style={{ textAlign:"center", maxWidth:700 }}>
           <div style={{ animation:"fadeUp 1s ease-out", marginBottom:32, display:"flex", justifyContent:"center" }}>
             <div style={{ width:152, height:152, borderRadius:"50%", background:"linear-gradient(135deg,#2c3e6b 0%,#4a6fa5 40%,#c9a84c 100%)", padding:4, boxShadow:`0 8px 40px ${T.shadow}0.25)`, animation:"float 6s ease-in-out infinite" }}>
-              <img src="/ahmad-photo.jpg" alt="Ahmad El Sayed Ahmad" style={{ width:"100%", height:"100%", borderRadius:"50%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
+              <img src="/ahmad-photo.jpg" alt="Ahmad El Sayed Ahmad" style={{ width:"100%", height:"100%", borderRadius:"50%", objectFit:"cover", objectPosition:"center", display:"block" }} />
             </div>
           </div>
           <p style={{ fontSize:13, textTransform:"uppercase", letterSpacing:4, color:T.gold, fontWeight:500, animation:"fadeUp 1s ease-out 0.2s both", marginBottom:16 }}>{t.heroSub}</p>
